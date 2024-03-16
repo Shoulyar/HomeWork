@@ -15,7 +15,7 @@ namespace HW2Task1
             Name = name;
             if (power <= 0)
             {
-                throw new ArgumentException("Power should be more than 0: ");
+                throw new ArgumentException("Power should be more than 0:");
             }
             else
             {
